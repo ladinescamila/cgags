@@ -69,7 +69,7 @@ function draw() {
     d.dibujar();
   }
 
-  calibrar(); // cuando no es necesario se comenta
+  //calibrar(); // cuando no es necesario se comenta
 
   const freq = obtenerFrecuenciaDominante();
   const tipoSonido = freq < 400 ? "Grave" : "Agudo";
