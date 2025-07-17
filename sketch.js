@@ -73,7 +73,7 @@ function draw() {
 
   const freq = obtenerFrecuenciaDominante();
   const tipoSonido = freq < 400 ? "Grave" : "Agudo";
-  text(`🎵 Frecuencia: ${nf(freq, 1, 2)} Hz (${tipoSonido})`, 20, 40);
+  //text(`🎵 Frecuencia: ${nf(freq, 1, 2)} Hz (${tipoSonido})`, 20, 40);
 
   if (level > volMin && level < volMax) {
     if (!sonidoActivo) {
